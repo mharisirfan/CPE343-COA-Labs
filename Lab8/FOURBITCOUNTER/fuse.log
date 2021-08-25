@@ -1,0 +1,20 @@
+Running: D:\InstalledProgram\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/TEST1_isim_beh.exe -prj D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/TEST1_beh.prj work.TEST1 work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/COUNTER.v" into library work
+Analyzing Verilog file "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/TEST1.v" into library work
+Analyzing Verilog file "D:/InstalledProgram/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module COUNTER
+Compiling module TEST1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\TEST1_isim_beh.exe.sim\libPortability.dll".
+Compiled 3 Verilog Units
+Built simulation executable D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/TEST1_isim_beh.exe
+Fuse Memory Usage: 27796 KB
+Fuse CPU Usage: 343 ms

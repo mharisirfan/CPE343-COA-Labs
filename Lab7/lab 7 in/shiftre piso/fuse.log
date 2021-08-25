@@ -1,0 +1,24 @@
+Running: D:\InstalledProgram\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/test_isim_beh.exe -prj D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/test_beh.prj work.test work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/mux_2.v" into library work
+Analyzing Verilog file "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/dff.v" into library work
+Analyzing Verilog file "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/register.v" into library work
+Analyzing Verilog file "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/test.v" into library work
+Analyzing Verilog file "D:/InstalledProgram/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/register.v" Line 26: Size mismatch in connection of port <in1>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module mux_2
+Compiling module dff
+Compiling module register
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\test_isim_beh.exe.sim\libPortability.dll".
+Compiled 5 Verilog Units
+Built simulation executable D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab7/lab 7 in/shiftre piso/test_isim_beh.exe
+Fuse Memory Usage: 28076 KB
+Fuse CPU Usage: 327 ms

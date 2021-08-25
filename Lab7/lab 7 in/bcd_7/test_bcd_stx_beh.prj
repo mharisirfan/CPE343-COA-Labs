@@ -1,0 +1,3 @@
+verilog isim_temp "bcd.v"
+verilog isim_temp "test_bcd.v"
+verilog isim_temp "D:/InstalledProgram/14.5/ISE_DS/ISE//verilog/src/glbl.v"

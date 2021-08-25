@@ -1,0 +1,72 @@
+module mux_2(y_out , inputs);
+
+input [2:0] inputs;
+output y_out;
+
+assign y_out  = (~inputs[0] & inputs[1]) | (inputs[0] & inputs[2]);
+endmodule
+
+
+module m_test;
+
+	// Inputs
+	reg [2:0] inputs;
+
+	// Outputs
+	wire y_out;
+
+	// Instantiate the Unit Under Test (UUT)
+	mux_2 uut (
+		.y_out(y_out), 
+		.inputs(inputs)
+	);
+
+	initial begin
+		// Initialize Inputs
+		inputs[0] = 0;
+		inputs[1] = 0;
+		inputs[2] = 0;
+		
+
+		// Wait 100 ns for global reset to finish
+		
+		#100;
+        
+		inputs[0] = 0;
+		inputs[1] = 0;
+		inputs[2] = 1;
+		
+		#100;
+        
+		inputs[0] = 0;
+		inputs[1] = 1;
+		inputs[2] = 0;
+		#100;
+        
+		inputs[0] = 0;
+		inputs[1] = 1;
+		inputs[2] = 1;
+		#100;
+        
+		inputs[0] = 1;
+		inputs[1] = 0;
+		inputs[2] = 0;
+		#100;
+        
+		inputs[0] = 1;
+		inputs[1] = 0;
+		inputs[2] = 1;
+		#100;
+        
+		inputs[0] = 1;
+		inputs[1] = 1;
+		inputs[2] = 0;
+
+     #100;
+        
+		inputs[0] = 1;
+		inputs[1] = 1;
+		inputs[2] = 1;
+	end
+      
+endmodule

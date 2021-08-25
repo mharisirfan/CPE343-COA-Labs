@@ -1,0 +1,38 @@
+# Sum Program
+
+.data
+SimpleArray: .word 45 89 -63 84 83 -97
+msg: .asciiz "The sum value is: "
+
+.text
+
+	li $t0, 0	# $t0 --> i or index of the loop
+	li $t1, 6	# $t1 --> Total number of iterations of the loop
+	li $t2, 0	# $t3 --> Sum of the array
+	la $s0, SimpleArray
+
+loopback:
+	beq $t0, $t1, ExitLoop
+	
+	lw $t3, 0($s0)
+	addu $t2, $t2, $t3 # --> Sum = Sum + SimpleArray[i]
+	
+	addiu $t0, $t0, 1
+	addiu $s0, $s0, 4
+	
+	j loopback	
+	
+ExitLoop:
+
+	la $a0, msg
+	li $v0, 4
+	syscall
+	
+	move $a0, $t2
+	li $v0, 1
+	syscall
+	
+
+
+	li $v0, 10
+	syscall

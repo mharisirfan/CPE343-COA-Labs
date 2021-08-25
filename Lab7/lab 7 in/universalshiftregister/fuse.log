@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/test1_isim_beh.exe -prj C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/test1_beh.prj work.test1 work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/mux_4.v" into library work
+Analyzing Verilog file "C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/dff.v" into library work
+Analyzing Verilog file "C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/registerpios.v" into library work
+Analyzing Verilog file "C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/test1.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/test1.v" Line 38: Port d is not connected to this instance
+Completed static elaboration
+Compiling module mux_4
+Compiling module dff
+Compiling module registerpios
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\test1_isim_beh.exe.sim\libPortability.dll".
+Compiled 5 Verilog Units
+Built simulation executable C:/Users/Abdul Ahad/Desktop/5th semester/lab 7/shiftregister/test1_isim_beh.exe
+Fuse Memory Usage: 27768 KB
+Fuse CPU Usage: 765 ms

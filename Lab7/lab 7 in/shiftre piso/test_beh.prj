@@ -1,0 +1,5 @@
+verilog work "mux_2.v"
+verilog work "dff.v"
+verilog work "register.v"
+verilog work "test.v"
+verilog work "D:/InstalledProgram/14.5/ISE_DS/ISE//verilog/src/glbl.v"

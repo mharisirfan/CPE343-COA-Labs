@@ -1,0 +1,5 @@
+verilog work "mux_4.v"
+verilog work "dff.v"
+verilog work "registerpios.v"
+verilog work "test1.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

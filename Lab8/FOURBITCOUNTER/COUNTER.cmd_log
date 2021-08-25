@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/COUNTER.xst" -ofn "D:/Desktop/Semester 5/Computer Organization and Architecture/Labs/Lab8/FA18-BCE-090-Postlab/FOURBITCOUNTER/COUNTER.syr" 

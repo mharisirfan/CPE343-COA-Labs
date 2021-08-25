@@ -1,0 +1,4 @@
+This Folder contains:
+1) Lab-1 Lab Report.
+2) Lab-1 PostLab asm file
+3) Lab-1 PostLab Output JPEG
